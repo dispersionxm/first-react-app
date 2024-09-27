@@ -3,8 +3,10 @@ import ReactLogo from './assets/react.svg'
 import './App.css'
 import {createElement} from "react";
 
+// declarative
 const thisYear = new Date().getFullYear()
 
+// imperative
 export const App = () => {
 	return createElement(
 		'div',
